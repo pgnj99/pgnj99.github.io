@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    z-index: 3;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.myname {
+    flex: 1;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+.navigation > li {
+    display: inline;
+    font-family: Verdana;
+    text-decoration: none;
+}
+  
+.navigation li+li::before {
+    content: " | ";
+}
+  
+.navigation li.attribute a {
+    color: gray;
+}
+.navigation li.attribute::after {
+    content: "";
+    color: red;
+    font-size: 10px;
+    vertical-align: super;
+}
+
+
+
+.heading {
+    padding-top: 4rem;
+}
+
+.flex {
+    display: flex;
+}
