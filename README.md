@@ -1,2 +1,1 @@
-# pgnj99.github.io
-My portfolio website.
+My portfolio website. Currently a work in progress!
