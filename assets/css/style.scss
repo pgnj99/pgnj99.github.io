@@ -1,0 +1,22 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+
+// Site navigation
+
+.site-nav {
+  margin-top: 1.5rem;
+}
+
+.site-nav a {
+  margin: 0 0.75rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
