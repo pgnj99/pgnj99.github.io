@@ -20,6 +20,20 @@
   text-decoration: underline;
 }
 
+nav a {
+  margin: 0 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a.active {
+  color: #2563eb;     // highlight color
+  font-weight: 600;
+  pointer-events: none;   // disables clicking
+  cursor: default;
+}
+
 // Project page
 .page-projects img {
   max-width: 300px;
@@ -31,9 +45,12 @@
 }
 
 .projects-page h2 {
-  margin-top: 60px;
+  margin-top: 4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
   clear: both;
 }
+
 
 // Resume page
 .resume-page h1 {
@@ -47,3 +64,49 @@
 .resume-page p {
   margin-bottom: 10px;
 }
+
+// General CSS updates
+
+.main-content {
+  max-width: 55rem;
+}
+
+body {
+  line-height: 1.65;
+}
+
+.main-content h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.main-content h2 {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+.main-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.page-header {
+  padding: 3rem 2rem !important;
+  background-image: none;
+  background-color: #1f2937;  // dark slate
+}
+
+body {
+  background-color: #fafafa;
+}
+
+a {
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
