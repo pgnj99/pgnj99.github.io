@@ -4,7 +4,13 @@
 @import 'jekyll-theme-cayman';
 
 
-// Site navigation
+// Header and navigation
+.page-header {
+  padding: 1.5rem 1rem !important;
+  background-image: none;
+  background-color: #111827;  // deep slate
+}
+
 .site-nav {
   margin-top: 1.5rem;
 }
@@ -65,6 +71,74 @@ nav a.active {
   margin-bottom: 10px;
 }
 
+// Footer
+
+.site-footer {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(99, 14, 14, 0.7);
+  background-color: rgba(31, 151, 27, 0.08);
+  border-color: rgba(107, 17, 224, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+// Social links
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  font-size: 1.4rem;
+  margin-right: 15px;
+  color: #374151;
+}
+
+.social-links a:hover {
+  color: #2563eb;
+}
+
+// Light/Dark mode functionalty
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --accent: #4f46e5;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --accent: #818cf8;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0;
+  margin-left: auto;
+  color: inherit;
+}
+
+.theme-toggle:focus {
+  outline: none;
+}
+
 // General CSS updates
 
 .main-content {
@@ -89,16 +163,6 @@ body {
 .main-content h3 {
   font-size: 1.2rem;
   font-weight: 600;
-}
-
-.page-header {
-  padding: 3rem 2rem !important;
-  background-image: none;
-  background-color: #1f2937;  // dark slate
-}
-
-body {
-  background-color: #fafafa;
 }
 
 a {
