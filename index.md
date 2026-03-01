@@ -4,17 +4,17 @@ description: Home
 body_class: page-main
 ---
 
-## Data-Focused Software Professional
+## A Data & Software Engineer Near You
 
 I specialize in managing structured data, programming software applications, and building reliable database solutions. With experience in Python, SQL, and model quality assurance, I focus on accuracy, clarity, and technical rigor.
 
 ---
 
-### What I Do
-- Data analysis and SQL-based workflows
-- Database application development
-- Software development
-- Technical tutoring & communication
+### What I Work On
+- Designing and querying structured datasets
+- Building data-focused applications
+- Developing maintainable database-driven systems
+- Improving model output quality and technical accuracy
 
 ---
 

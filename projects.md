@@ -23,6 +23,15 @@ Slideshow: [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQlZ7
 - Both annual and casual riders primarily use electric bikes as their vehicle of choice.
 - Business recommendations include running seasonal promotions, adjusting marketing to casual rider motivations, introducing low-committal passes, tying e-bike perks to annual memberships, and targeting stations with high casual rider usage.
 
+## [[WIP] Google Workspace Dark Mode Extension](https://github.com/pgnj99/google-workspace-dark-mode)
+![Google Slides workspace](images/projects_googledarkmode1.png)
+![Google Docs home page](images/projects_googledarkmode2.png)
+**Tech Stack:** CSS, JavaScript
+
+This project enables a customized "dark mode" for several Google Workspace applications in Google Chrome. These include Google Docs, Google Sheets, Google Slides, Google Videos, and Google Forms. Currently, this only affects user-interfaces rather than the workspaces themselves to avoid confusion with public-facing elements.
+
+Follow the instructions in the included README to install in Google Chrome.
+
 # Additonal projects
 ## [Python Master Mind](https://github.com/pgnj99/python-mastermind)
 ![Mastermind classic](images/projects_mastermind1.png)
